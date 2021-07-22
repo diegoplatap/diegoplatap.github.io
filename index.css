@@ -1,14 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: "Fuggles";
+  src: url("/Fonts/fuggles-regular-webfont.woff2") format("woff2"),
+    url("/Fonts/fuggles-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-style: swap;
 }
 
 html,
 body {
+  margin: 0;
   height: 100%;
   background-color: #0f0f0f;
   font-family: "Fuggles", cursive;
-  /* font-display: fallback; */
 }
 
 .content {
@@ -55,6 +59,13 @@ h3 {
 @media screen and (min-width: 300px) {
   .avatar {
     width: 50px;
+  }
+  h1 {
+    font-size: 1.7vh;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 1vh;
   }
 }
 @media screen and (min-width: 345px) {
