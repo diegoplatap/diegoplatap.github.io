@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #0f0f0f;
+  font-family: "Fuggles", cursive;
+  /* font-display: fallback; */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.tayrona {
+  max-width: 100%;
+}
+
+.profile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 1px;
+}
+
+h1,
+h3 {
+  color: white;
+  font-size: 0.5vh;
+}
+
+@media screen and (min-width: 100px) {
+  .avatar {
+    width: 10px;
+  }
+}
+@media screen and (min-width: 245px) {
+  .avatar {
+    width: 35px;
+  }
+}
+@media screen and (min-width: 300px) {
+  .avatar {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 345px) {
+  .avatar {
+    width: 75px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 2vh;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 1.5vh;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 3vh;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 2vh;
+  }
+  .avatar {
+    width: 115px;
+    border: 3px solid white;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  h1 {
+    font-size: 3.5vh;
+  }
+  h3 {
+    font-size: 2.5vh;
+  }
+  .avatar {
+    width: 130px;
+    border: 3px solid white;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4vh;
+  }
+  h3 {
+    font-size: 3vh;
+  }
+  .avatar {
+    width: 140px;
+    border: 3px solid white;
+  }
+}
+@media screen and (min-width: 880px) {
+  h1 {
+    font-size: 4.3vh;
+  }
+  h3 {
+    font-size: 3.2vh;
+  }
+  .avatar {
+    width: 145px;
+    border: 3px solid white;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4.5vh;
+  }
+  h3 {
+    font-size: 3.5vh;
+  }
+  .avatar {
+    width: 150px;
+    border: 3px solid white;
+  }
+}
+
+@media screen and (min-width: 1175px) {
+  h1 {
+    font-size: 5.3vh;
+  }
+  h3 {
+    font-size: 4.3vh;
+  }
+  .avatar {
+    width: 155px;
+    border: 5px solid white;
+  }
+}
