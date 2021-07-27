@@ -16,14 +16,16 @@ body {
 }
 
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 721px;
 
-.tayrona {
-  max-width: 100%;
+  background-image: url(/images/Landscape.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
 
 .profile {
